@@ -15,7 +15,7 @@ tags:
 
 ## GitHub: Create New Repository
 
-	echo "#Project Name" >> README.md
+	echo "Project Name" >> README.md
 	git init
 	git add README.md
 	git commit -m "first commit"
