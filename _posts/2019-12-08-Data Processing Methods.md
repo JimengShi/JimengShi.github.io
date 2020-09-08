@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Data Processing Methods
+title:      Data Pre-processing Methods
 subtitle:   Data cleaning, data integration, data transformation, data normalization
 date:       2020-09-07
 author:     Jimeng
