@@ -10,18 +10,6 @@ tags:
     - Machine Learning
 ---
 
-
-
-# GitHub创建仓库提示代码
-
-	echo "# 项目名" >> README.md
-	git init
-	git add README.md
-	git commit -m "first commit"
-	git remote add origin git@github.com:qiubaiying/项目名.git
-	git push -u origin master
-
-
 	
 [Chinese Version](https://zhuanlan.zhihu.com/p/180568816)
 
