@@ -17,7 +17,7 @@ tags:
 
 
 # Preface
-This is fork from [quibaiying](http://qiubaiying.top)
+This is fork from [quibaiying](http://qiubaiying.top). You can check out more details about blog. Actually, my blog was also built by referring to his blog.
 
 Demo on website：
 
@@ -31,7 +31,7 @@ Demo on phone：
 
 # Quich Start
 
-### 从注册一个Github账号开始
+### Start from signing up a Github account
 
 我采用的搭建博客的方式是使用 [GitHub Pages](https://pages.github.com/) + [jekyll](http://jekyll.com.cn/) 的方式。
 
