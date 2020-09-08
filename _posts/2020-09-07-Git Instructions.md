@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Git Instructions
-subtitle:   Summarize Some Common Git Instructions
+subtitle:   Summarize some common git instructions
 date:       2020-09-07
 author:     Jimeng
 header-img: img/post-bg-ios9-web.jpg
