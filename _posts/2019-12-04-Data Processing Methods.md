@@ -1,16 +1,28 @@
 ---
 layout:     post
 title:      Data Processing Methods
-subtitle:   Data processing methods: data cleaning, data integration, data transformation, data normalization.
-date:       2019-12-04
+subtitle:   Data cleaning, data integration, data transformation, data normalization
+date:       2020-09-07
 author:     Jimeng
 header-img: img/post-bg-BJJ.jpg
 catalog: true
 tags:
     - Machine Learning
-    
 ---
 
+
+
+# GitHub创建仓库提示代码
+
+	echo "# 项目名" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin git@github.com:qiubaiying/项目名.git
+	git push -u origin master
+
+
+	
 [Chinese Version](https://zhuanlan.zhihu.com/p/180568816)
 
 
