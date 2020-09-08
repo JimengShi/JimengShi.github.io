@@ -28,9 +28,9 @@ Directly push if the repository had already exist
 	git push -u origin master
 
 
-## 常用操作
+## Commonly Used Operations
 
-#### 创建仓库（初始化）
+#### Initialize Repository
 	在当前指定目录下创建
 	git init
 	
@@ -40,7 +40,7 @@ Directly push if the repository had already exist
 	克隆一个远程项目
 	git clone [url]
 	
-#### 添加文件到缓存区
+#### Add files to Buffer
 
 	添加所有变化的文件
  	git add .
@@ -48,14 +48,14 @@ Directly push if the repository had already exist
 	添加名称指定文件
 	git add text.txt
 
-#### 配置
+#### Configure
 
 	设置提交代码时的用户信息
 	git config [--global] user.name "[name]"
 	git config [--global] user.email "[email address]"
 	
 	
-#### 提交
+#### Submit
 	提交暂存区到仓库区
 	git commit -m "msg"
 	
@@ -75,7 +75,7 @@ Directly push if the repository had already exist
 	# 重做上一次commit，并包括指定文件的新变化
 	$ git commit --amend [file1] [file2] ...
 	
-#### 远程同步
+#### Remote Synchronization
 
 	# 下载远程仓库的所有变动
 	$ git fetch [remote]
@@ -103,7 +103,7 @@ Directly push if the repository had already exist
 
 
 	
-#### 分支
+#### Branch
 
 	# 列出所有本地分支
 	$ git branch
@@ -148,7 +148,7 @@ Directly push if the repository had already exist
 	$ git push origin --delete [branch-name]
 	$ git branch -dr [remote/branch]
 	
-#### 标签Tags
+#### Tags
 
 	添加标签 在当前commit
 	git tag -a v1.0 -m 'xxx' 
@@ -174,7 +174,7 @@ Directly push if the repository had already exist
 	新建一个分支，指向某个tag
 	git checkout -b [branch] [tag]
 
-#### 查看信息
+#### Look up Infomation
 
 	# 显示有变更的文件
 	$ git status
@@ -237,7 +237,7 @@ Directly push if the repository had already exist
 	# 显示当前分支的最近几次提交
 	$ git reflog
 	
-#### 撤销
+#### Undo
 	
 	# 恢复暂存区的指定文件到工作区
 	$ git checkout [file]
@@ -271,7 +271,7 @@ Directly push if the repository had already exist
 	$ git stash
 	$ git stash pop
 	
-#### 其他
+#### Others
 
 	# 生成一个可供发布的压缩包
 	$ git archives
