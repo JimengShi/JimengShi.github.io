@@ -13,22 +13,22 @@ tags:
 > Based on my personal experience, sharing some common git instructions I used a lot!
 
 
-# GitHub创建仓库提示代码
+## GitHub: Create New Repository
 
-	echo "# 项目名" >> README.md
+	echo "#Project Name" >> README.md
 	git init
 	git add README.md
 	git commit -m "first commit"
-	git remote add origin git@github.com:qiubaiying/项目名.git
+	git remote add origin git@github.com:qiubaiying/Project Name.git
 	git push -u origin master
 
-若仓库存在直接push
+Directly push if the repository had already exist
 
 	git remote add origin git@github.com:qiubaiying/test.git
 	git push -u origin master
 
 
-# 常用操作
+## 常用操作
 
 #### 创建仓库（初始化）
 	在当前指定目录下创建
