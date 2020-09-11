@@ -50,7 +50,7 @@ Unsupervised learning allows us to have little or no idea what our results shoul
 A computer program interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent). The program is provided feedback in terms of rewards and punishments as it navigates its problem space.
 
 <div align="center">
-<img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/post_reforcement.png" width=200% alt="post_reforcement" >
+<img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/post_reforcement.png" width=60% alt="post_reforcement" >
 </div>
 
 ##### Recommendation systems
