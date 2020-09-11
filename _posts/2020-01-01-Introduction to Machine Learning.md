@@ -27,7 +27,7 @@ You first have a data set and know what the correct output is. You can consider 
 In a regression problem, we try to predict the outcome in a continuous output, which means we try to map the input variable to a continuous function. For example, given a photo of a person, predicting age based on the photo, this is a regression problem.
 
 <div align="center">
-<img src="https://github.com/JimengShi/JimengShi.github.io/tree/master/img/Regression.png" alt="Regression" >
+<img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png" alt="Regression" >
 </div>
 
 - Classification problem
