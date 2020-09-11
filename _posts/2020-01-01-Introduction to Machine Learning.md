@@ -31,7 +31,7 @@ In a regression problem, we try to predict the outcome in a continuous output, w
 </div>
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png">
+  <img width="400" height="200" src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png">
 </p>
 
 [![](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png)](http://JimengShi.github.io/)
