@@ -30,7 +30,8 @@ In a regression problem, we try to predict the outcome in a continuous output, w
 <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png" alt="Regression" >
 </div>
 
-[![](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png)](https://jimengshi.github.io/)
+![](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png)
+
 
 
 - Classification problem
