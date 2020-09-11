@@ -4,7 +4,7 @@ title:      Data Pre-processing Methods
 subtitle:   Data cleaning, data integration, data transformation, data normalization
 date:       2020-09-07
 author:     Jimeng
-header-img: img/post-bg-BJJ.jpg
+header-img: img/southeast_view.jpg
 catalog: true
 tags:
     - Machine Learning
