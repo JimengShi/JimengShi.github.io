@@ -26,8 +26,16 @@ You first have a data set and know what the correct output is. You can consider 
 - Regression problem
 In a regression problem, we try to predict the outcome in a continuous output, which means we try to map the input variable to a continuous function. For example, given a photo of a person, predicting age based on the photo, this is a regression problem.
 
+<div align="center">
+<img src="https://github.com/JimengShi/JimengShi.github.io/tree/master/img/Regression.png" alt="Regression" >
+</div>
+
 - Classification problem
 In the classification problem, we try to predict the outcome in the discrete output which means we try to map input variables into discrete categories. For example, given to a patient with a tumor, we have to predict whether the tumor is malignant or benign. 
+
+<div align="center">
+<img src="https://github.com/JimengShi/JimengShi.github.io/tree/master/img/Classification.png" alt="Classification" >
+</div>
 
 ##### Unsupervised learning
 
