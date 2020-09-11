@@ -32,6 +32,9 @@ In a regression problem, we try to predict the outcome in a continuous output, w
 
 ![images](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png)
 
+[![](http://upload-images.jianshu.io/upload_images/2178672-d58bb45f9faedb70.jpg)](http://qiubaiying.github.io/)
+
+
 - Classification problem
 In the classification problem, we try to predict the outcome in the discrete output which means we try to map input variables into discrete categories. For example, given to a patient with a tumor, we have to predict whether the tumor is malignant or benign. 
 
