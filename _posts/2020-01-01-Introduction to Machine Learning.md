@@ -21,7 +21,7 @@ The checkers example, E = 10000s games, T is playing checkers, P if you win or n
 
 ## Several types of learning algorithms
 
-##### Supervised learning
+#### Supervised learning
 You first have a data set and know what the correct output is. You can consider it as supervised learning if its corresponding dataset has the exact labels. The supervised learning problem is classified into a Regression problem and a Classification problem.
 
 - Regression problem
@@ -39,7 +39,7 @@ In the classification problem, we try to predict the outcome in the discrete out
 <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" >
 </div>
 
-##### Unsupervised learning
+#### Unsupervised learning
 Unsupervised learning allows us to have little or no idea what our results should look like. You can consider it as supervised learning if its corresponding dataset has the exact labels. In the unsupervised learning, there is no feedback based on predicted results. Unsupervised learning can be divided into "clustering" and "non-clustering". 
 
 - Clustering: taking a collection of 1,000,000 different genes and finding a way to automatically group them into similar or related groups of different variables. In this situation, you have no idea about labels in the dataset.
@@ -49,11 +49,11 @@ Unsupervised learning allows us to have little or no idea what our results shoul
 </div>
 
 
-##### Reforcement learning
+#### Reforcement learning
 A computer program interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent). The program is provided feedback in terms of rewards and punishments as it navigates its problem space.
 
 <div align="center">
 <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/post_reforcement.png" width=50% alt="post_reforcement" >
 </div>
 
-##### Recommendation systems
+#### Recommendation systems
