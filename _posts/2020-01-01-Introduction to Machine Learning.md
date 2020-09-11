@@ -4,7 +4,7 @@ title:      Introduction to Machine Learning
 subtitle:   Definition and Classification of Machine Learning
 date:       2020-01-01
 author:     Jimeng
-header-img: img/post-bg-BJJ.jpg
+header-img: img/southeast_view.jpg
 catalog: true
 tags:
     - Machine Learning
