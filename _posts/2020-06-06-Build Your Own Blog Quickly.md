@@ -4,7 +4,7 @@ title:      Build Your Own Blog Quickly
 subtitle:   Build your own blog in half of an hour (If possible🙈🙊🙉)
 date:       2020-06-06
 author:     Jimeng
-header-img: img/post-bg-re-vs-ng2.jpg
+header-img: img/southeast_view.jpg
 catalog: true
 tags:
     - Blog
