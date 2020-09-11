@@ -13,7 +13,7 @@ tags:
 
 Demo on website：
 
-[![](http://upload-images.jianshu.io/upload_images/2178672-51a2fe6fbe24d1cd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](http://qiubaiying.github.io/) 
+[![](http://upload-images.jianshu.io/upload_images/2178672-51a2fe6fbe24d1cd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](http://JimengShi.github.io/) 
 
 ## What is Machine Learning?
 
@@ -38,9 +38,7 @@ In a regression problem, we try to predict the outcome in a continuous output, w
 - Classification problem
 In the classification problem, we try to predict the outcome in the discrete output which means we try to map input variables into discrete categories. For example, given to a patient with a tumor, we have to predict whether the tumor is malignant or benign. 
 
-<div align="center">
-<img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" >
-</div>
+
 
 [![](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png)](https://jimengshi.github.io/2020/01/01/Introduction-to-Machine-Learning/)
 
