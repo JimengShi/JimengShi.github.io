@@ -31,8 +31,9 @@ You first have a data set and know what the correct output is. You can consider 
 - Regression problem
 In a regression problem, we try to predict the outcome in a continuous output, which means we try to map the input variable to a continuous function. For example, given a photo of a person, predicting age based on the photo, this is a regression problem.
 
+[![](http://upload-images.jianshu.io/upload_images/Regressioni.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](http://JimengShi.github.io/) 
 
-![](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png)
+
 
 
 - Classification problem
