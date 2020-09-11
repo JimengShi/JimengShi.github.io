@@ -29,6 +29,7 @@ In a regression problem, we try to predict the outcome in a continuous output, w
 <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png" alt="Regression" >
 </div>
 
+[![](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Regressioni.png)](https://jimengshi.github.io/)
 
 
 - Classification problem
@@ -37,6 +38,9 @@ In the classification problem, we try to predict the outcome in the discrete out
 <div align="center">
 <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" >
 </div>
+
+[![](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png)](https://jimengshi.github.io/)
+
 
 ##### Unsupervised learning
 Unsupervised learning allows us to have little or no idea what our results should look like. You can consider it as supervised learning if its corresponding dataset has the exact labels. In the unsupervised learning, there is no feedback based on predicted results. Unsupervised learning can be divided into "clustering" and "non-clustering". 
