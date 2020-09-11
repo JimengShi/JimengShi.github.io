@@ -10,6 +10,11 @@ tags:
     - Machine Learning
 ---
  
+
+Demo on website：
+
+[![](http://upload-images.jianshu.io/upload_images/2178672-51a2fe6fbe24d1cd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](http://qiubaiying.github.io/) 
+
 ## What is Machine Learning?
 
 Arthur Samuel (1959): "Field of study that gives computers the ability to learn without being explicitly programmed.
