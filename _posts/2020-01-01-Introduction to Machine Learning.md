@@ -37,7 +37,7 @@ In the classification problem, we try to predict the outcome in the discrete out
 <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" >
 </div>
 
-[![](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png)](https://jimengshi.github.io/)
+[![](https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png)](https://jimengshi.github.io/2020/01/01/Introduction-to-Machine-Learning/)
 
 
 ##### Unsupervised learning
