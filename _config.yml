@@ -17,7 +17,7 @@ sidebar-avatar: /img/profile.jpg      # use absolute URL, seeing it's used in bo
 
 
 # SNS settings
-RSS: false
+RSS: true
 zhihu_username:     ji-ren-meng-sheng
 github_username:    jimengshi
 facebook_username:  jimeng.shi.54
