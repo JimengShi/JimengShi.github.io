@@ -89,15 +89,15 @@ service-worker: true
 
 
 # Connect
-friends: [
+MORE: [
     {
-        title: "Resume",
+        title: "Personal Website",
         href: "http://jimengai.ueuo.com/index.html"
-    },{
-        title: "Facebook",
-        href: "https://www.facebook.com/jimeng.shi.54/"
-    },{
-        title: "Linkedin",
-        href: "https://www.linkedin.com/in/jimeng-shi-729564187/"
+#     },{
+#         title: "Facebook",
+#         href: "https://www.facebook.com/jimeng.shi.54/"
+#     },{
+#         title: "Linkedin",
+#         href: "https://www.linkedin.com/in/jimeng-shi-729564187/"
     }
 ]
