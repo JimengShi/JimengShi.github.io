@@ -11,7 +11,7 @@ github_repo: "https://github.com/JimengShi/JimengShi.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Big fan of AI."
+sidebar-about-description: "Big fan of Artificial Intelligence"
 sidebar-avatar: /img/profile.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -89,7 +89,7 @@ service-worker: true
 
 
 # Connect
-more: [
+friends: [
     {
         title: "Personal Website",
         href: "http://jimengai.ueuo.com/index.html"
