@@ -46,7 +46,11 @@ tags:
     *** or ---
     
 # Table
-a | b | c
+    Column1 | Column2 | Column3
+    :--------|:------:|-----
+    e | d | d
+    e | d | d
+Column1 | Column2 | Column3
 :--------|:------:|-----
 e | d | d
 e | d | d
