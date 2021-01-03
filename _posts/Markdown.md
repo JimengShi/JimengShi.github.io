@@ -38,6 +38,10 @@ tags:
     ```Python
     Codes
     ```
+    
+```Python
+print("Hello, world!")
+```    
     # Codes in a single line
     `Codes`
     
