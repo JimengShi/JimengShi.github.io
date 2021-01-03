@@ -18,8 +18,12 @@ tags:
     ### Heading 3
 
 # Text
->
-    ** Bold text **
-    * Italic text *
-    ~~ Delete line ~~
-    'Highlighted text'
+    Bold: ** Bold text **
+    Italic: * Italic text *
+    Delete line: ~~ Delete line ~~
+    Wold Highlight: 'Highlighted text'
+
+# Link
+    [word](concrete link)  --> e.g.: [google](https://www.google.com/)
+    ![](picture link)      --> e.g.: ![](images/demo.jpg){height=30%}
+    ![](picture link)      --> e.g.: ![](images/demo.jpg){height=30%} \ ![](images/demo.jpg){height=10%}
