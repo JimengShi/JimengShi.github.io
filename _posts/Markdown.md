@@ -18,7 +18,8 @@ tags:
     ### Heading 3
 
 # Text
-    - ** Bold text **
-    - * Italic text *
-    - ~~ Delete line ~~
-    - 'Highlighted text'
+>
+    ** Bold text **
+    * Italic text *
+    ~~ Delete line ~~
+    'Highlighted text'
