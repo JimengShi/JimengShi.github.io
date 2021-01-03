@@ -34,8 +34,17 @@ tags:
     </div>
     
 # Code
+    # Codes in multiple lines
     ```Python
     Codes
     ```
+    # Codes in a single line
     `Codes`
     
+# Break Line
+    # must be 3 or more
+    *** or ---
+    
+# Table
+a | b | c
+e | d | d
