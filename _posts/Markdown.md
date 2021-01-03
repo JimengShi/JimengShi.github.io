@@ -27,3 +27,9 @@ tags:
     [word](concrete link)  --> e.g.: [google](https://www.google.com/)
     ![](picture link)      --> e.g.: ![](images/demo.jpg){height=30%}
     ![](picture link)      --> e.g.: ![](images/demo.jpg){height=30%} \ ![](images/demo.jpg){height=10%}
+    [![pic_name.png](online link of picture)](blog link where you want to post)
+    [![wUUa9K.png](https://s1.ax1x.com/2020/09/12/wUUa9K.png)](https://jimengshi.github.io/2020/01/01/Introduction-to-Machine-Learning/)
+    <div align="center">
+    <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" >
+    </div>
+    
