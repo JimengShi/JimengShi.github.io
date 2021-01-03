@@ -10,9 +10,6 @@ tags:
     - Git
 ---
 
-> dfa
->> dg
-
 > Based on my personal experience, sharing some common git instructions I used a lot!
 
 
