@@ -10,6 +10,9 @@ tags:
     - Git
 ---
 
+> dfa
+>> dg
+
 > Based on my personal experience, sharing some common git instructions I used a lot!
 
 
@@ -28,7 +31,7 @@ Directly push if the repository had already exist
 
 
 ## Commonly Used Operations
-
+	
 #### Initialize Repository
 	在当前指定目录下创建
 	git init
