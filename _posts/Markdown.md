@@ -33,3 +33,9 @@ tags:
     <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" >
     </div>
     
+# Code
+    ```Python
+    Codes
+    ```
+    `Codes`
+    
