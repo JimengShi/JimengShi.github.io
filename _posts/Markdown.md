@@ -42,7 +42,13 @@ tags:
     <div align="center">
     <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" width=10%>
     </div>
+    
+![](images/post-bg-ios9-web.jpg){height=30%} \ ![](images/post-bg-ios9-web.jpg){height=30%}
 
+<div align="center">
+<img src="post-bg-ios9-web.jpg" alt="Classification" width=30%>
+</div>
+    
 
 # Code
     # Codes in multiple lines
@@ -84,10 +90,3 @@ e | d | d
     
 - [x] checked words
 - [ ] not checked words
-
-
-# Reference
-    This is a [reference](https://www.google.com/finance)
-This is a [reference](https://www.google.com/finance)
-
-[1] https://www.google.com/finance
