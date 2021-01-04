@@ -90,14 +90,14 @@ Standardized and normalized data: dimensionality of different features in the da
 
 - Example:
 
-    input      | standardized | normalized
-    :---------:|:------------:|:----------:
-       0.0     | -1.336306    |   0.0
-       1.0     | -0.801784    |   0.2
-       2.0     | -0.267261    |   0.4
-       3.0     | 0.267261     |   0.6
-       4.0     | 0.801784     |   0.8
-       5.0     | 1.336306     |   1.0
+   | input      | standardized | normalized|
+   |:-----------|:------------:|-----------|
+   |    0.0     | -1.336306    |   0.0   |
+   |    1.0     | -0.801784    |   0.2|
+   |    2.0     | -0.267261    |   0.4|
+   |    3.0     | 0.267261     |   0.6|
+   |    4.0     | 0.801784     |   0.8|
+   |    5.0     | 1.336306     |   1.0|
 
 
 #### 4.2 Sparse processing
