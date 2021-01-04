@@ -10,7 +10,6 @@ tags:
     - Markdown
 ---
 
-[TOC]
 
 # Title
     # Heading 1
@@ -26,15 +25,12 @@ tags:
     Bold: **Bold text**
     Italic: *Italic text*
     Delete line: ~~Delete line~~
-    World Highlight: This is a ==highlighted== word.
 
 **Bold text**
 
 *Italic text*
 
 ~~Delete line~~
-
-'Highlighted text'
 
 
 # Link
@@ -90,3 +86,5 @@ e | d | d
 - [ ] not checked words
 
 
+# Reference
+    This is a [reference](This is an example for reference)
