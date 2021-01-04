@@ -33,8 +33,7 @@ tags:
 
 ~~Delete line~~
 
-<span style="color:blue">some *blue* Highlighted text</span>
-<span style="color: red;">text</span> 
+<span style="color: red;">afdaddf text</span> 
 
 # Link
     [word](concrete link)  --> e.g.: [google](https://www.google.com/)
@@ -43,7 +42,7 @@ tags:
     [![pic_name.png](online link of picture)](blog link where you want to post)
     [![wUUa9K.png](https://s1.ax1x.com/2020/09/12/wUUa9K.png)](https://jimengshi.github.io/2020/01/01/Introduction-to-Machine-Learning/)
     <div align="center">
-    <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" >
+    <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" width=10%>
     </div>
 
 
