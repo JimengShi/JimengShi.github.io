@@ -72,3 +72,4 @@ A computer program interacts with a dynamic environment in which it must perform
 [![wUUoHs.png](https://s1.ax1x.com/2020/09/12/wUUoHs.png)](https://jimengshi.github.io/2020/01/01/Introduction-to-Machine-Learning/)
 
 #### Recommendation systems
+Recommendate the similar products to users based on their previous behaviors.
