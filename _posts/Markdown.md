@@ -43,10 +43,10 @@ tags:
     <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" width=10%>
     </div>
     
-![](images/post-bg-ios9-web.jpg){height=30%} \ ![](images/post-bg-ios9-web.jpg){height=30%}
+![](img/post-bg-ios9-web.jpg){height=30%} \ ![](img/post-bg-ios9-web.jpg){height=30%}
 
 <div align="center">
-<img src="post-bg-ios9-web.jpg" alt="Classification" width=30%>
+<img src="img/post-bg-ios9-web.jpg" alt="Classification" width=30%>
 </div>
     
 
