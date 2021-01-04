@@ -87,7 +87,7 @@ e | d | d
 
 
 # Reference
-    This is a [reference](This is an example for reference)
-This is a [reference](This is an example for reference)
+    This is a [reference](https://www.google.com/finance)
+This is a [reference](https://www.google.com/finance)
 
-
+[1] https://www.google.com/finance
