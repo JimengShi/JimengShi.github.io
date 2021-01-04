@@ -10,6 +10,7 @@ tags:
     - Markdown
 ---
 
+[TOC]
 
 # Title
     # Heading 1
@@ -25,7 +26,7 @@ tags:
     Bold: **Bold text**
     Italic: *Italic text*
     Delete line: ~~Delete line~~
-    Wold Highlight: 'Highlighted text'
+    World Highlight: This is a ==highlighted== word.
 
 **Bold text**
 
@@ -79,3 +80,13 @@ Column1 | Column2 | Column3
 :--------|:------:|-----
 e | d | d
 e | d | d
+
+
+# Check
+    - [x] checked words
+    - [ ] not checked words
+    
+- [x] checked words
+- [ ] not checked words
+
+
