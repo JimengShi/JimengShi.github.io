@@ -70,11 +70,11 @@ Outliers are usually defined as abnormal or noisy, which refers to those data ou
 ## 3 Data integration
 Data integration is mainly to increase the amount of sample data. The main methods are as follows:
 
-- Data consolidation: Physically import data together into the same data store.This usually involves data warehousing technology.
+- Data consolidation: Physically import data together into the same data store. This usually involves data warehousing technology.
 
-- Data propagation: Data is copied from one location to another using an application called "data propagation."This procedure can be performed synchronously or asynchronously and is an event-driven operation.
+- Data propagation: Data is copied from one location to another using an application called "data propagation. "This procedure can be performed synchronously or asynchronously and is an event-driven operation.
 
-- Data virtualization: Use interfaces to provide a unified, real-time view of data from many different sources.Data can be viewed from a single point of access.
+- Data virtualization: Use interfaces to provide a unified, real-time view of data from many different sources. Data can be viewed from a single point of access.
 
 ## 4 Data transformation
 Data transformation includes normalization, discretization and sparse processing of data to achieve the purpose of mining.
