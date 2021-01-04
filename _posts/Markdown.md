@@ -27,11 +27,11 @@ tags:
     Delete line: ~~ Delete line ~~
     Wold Highlight: 'Highlighted text'
 
-** Bold text **
+**Bold text**
 
-* Italic text *
+*Italic text*
 
-~~ Delete line ~~
+~~Delete line~~
 
 'Highlighted text'
 
