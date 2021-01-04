@@ -22,9 +22,9 @@ tags:
 
 
 # Text
-    Bold: ** Bold text **
-    Italic: * Italic text *
-    Delete line: ~~ Delete line ~~
+    Bold: **Bold text**
+    Italic: *Italic text*
+    Delete line: ~~Delete line~~
     Wold Highlight: 'Highlighted text'
 
 **Bold text**
@@ -33,7 +33,7 @@ tags:
 
 ~~Delete line~~
 
-'Highlighted text'
+<font color='red'>'Highlighted text'</font>
 
 
 # Link
@@ -54,9 +54,8 @@ tags:
     ```
     
 ```Python
-a = 3
-b = 2
-print(a+b)
+def addition(a, b):
+    print("The sum is: ", a+b)
 ```    
 
     # Codes in a single line
