@@ -33,7 +33,8 @@ tags:
 
 ~~Delete line~~
 
-<span style="color: red;">afdaddf text</span> 
+'Highlighted text'
+
 
 # Link
     [word](concrete link)  --> e.g.: [google](https://www.google.com/)
