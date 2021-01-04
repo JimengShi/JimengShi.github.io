@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ---
 layout:     post
 title:      Data Pre-processing Methods
