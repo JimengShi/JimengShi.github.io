@@ -21,7 +21,7 @@ The checkers example, E = 10000s games, T is playing checkers, P if you win or n
 
 ## 2 Several types of learning algorithms
 
-### 2.1 Supervised learning
+#### 2.1 Supervised learning
 You first have a data set and know what the correct output is. You can consider it as supervised learning if its corresponding dataset has the exact labels. The supervised learning problem is classified into a Regression problem and a Classification problem.
 
 - Regression problem
@@ -47,7 +47,7 @@ In the classification problem, we try to predict the outcome in the discrete out
 [![wUUd1O.png](https://s1.ax1x.com/2020/09/12/wUUd1O.png)](https://jimengshi.github.io/2020/01/01/Introduction-to-Machine-Learning/)
 
 
-### 2.2 Unsupervised learning
+#### 2.2 Unsupervised learning
 Unsupervised learning allows us to have little or no idea what our results should look like. You can consider it as supervised learning if its corresponding dataset has the exact labels. In the unsupervised learning, there is no feedback based on predicted results. Unsupervised learning can be divided into "clustering" and "non-clustering". 
 
 - Clustering: taking a collection of 1,000,000 different genes and finding a way to automatically group them into similar or related groups of different variables. In this situation, you have no idea about labels in the dataset.
@@ -60,7 +60,7 @@ Unsupervised learning allows us to have little or no idea what our results shoul
 
 [![wUU7En.png](https://s1.ax1x.com/2020/09/12/wUU7En.png)](https://jimengshi.github.io/2020/01/01/Introduction-to-Machine-Learning/)
 
-### 2.3 Reforcement learning
+#### 2.3 Reforcement learning
 A computer program interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent). The program is provided feedback in terms of rewards and punishments as it navigates its problem space.
 
 <!---
@@ -72,5 +72,5 @@ A computer program interacts with a dynamic environment in which it must perform
 [![wUUoHs.png](https://s1.ax1x.com/2020/09/12/wUUoHs.png)](https://jimengshi.github.io/2020/01/01/Introduction-to-Machine-Learning/)
 
 
-### 2.4 Recommendation systems
+#### 2.4 Recommendation systems
 Recommendate the similar products to users based on their previous behaviors.
