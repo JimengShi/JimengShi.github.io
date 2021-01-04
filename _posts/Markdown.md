@@ -12,16 +12,26 @@ tags:
 
 
 # Title
-
     # Heading 1
     ## Heading 2
     ### Heading 3
+    
+# Heading 1
+## Heading 2
+### Heading 3
+
 
 # Text
     Bold: ** Bold text **
     Italic: * Italic text *
     Delete line: ~~ Delete line ~~
     Wold Highlight: 'Highlighted text'
+
+** Bold text **
+* Italic text *
+~~ Delete line ~~
+'Highlighted text'
+
 
 # Link
     [word](concrete link)  --> e.g.: [google](https://www.google.com/)
@@ -32,7 +42,8 @@ tags:
     <div align="center">
     <img src="https://github.com/JimengShi/JimengShi.github.io/blob/master/img/Classification.png" alt="Classification" >
     </div>
-    
+
+
 # Code
     # Codes in multiple lines
     ```Python
@@ -40,14 +51,22 @@ tags:
     ```
     
 ```Python
-print("Hello, world!")
+a = 3
+b = 2
+print(a+b)
 ```    
+
     # Codes in a single line
     `Codes`
     
+hahaha`print("Hello, world!")`hahaha
+
+
 # Break Line
     # must be 3 or more
     *** or ---
+    
+--------------------    
     
 # Table
     Column1 | Column2 | Column3
