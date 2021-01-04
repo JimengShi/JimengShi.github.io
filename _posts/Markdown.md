@@ -28,8 +28,11 @@ tags:
     Wold Highlight: 'Highlighted text'
 
 ** Bold text **
+
 * Italic text *
+
 ~~ Delete line ~~
+
 'Highlighted text'
 
 
@@ -59,7 +62,7 @@ print(a+b)
     # Codes in a single line
     `Codes`
     
-hahaha`print("Hello, world!")`hahaha
+hahaha `print("Hello, world!")` hahaha
 
 
 # Break Line
