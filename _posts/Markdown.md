@@ -34,7 +34,7 @@ tags:
 ~~Delete line~~
 
 <span style="color:blue">some *blue* Highlighted text</span>
-
+<span style="color: red;">text</span> 
 
 # Link
     [word](concrete link)  --> e.g.: [google](https://www.google.com/)
