@@ -90,14 +90,14 @@ Standardized and normalized data: dimensionality of different features in the da
 
 - Example:
 
-    input | standardized | normalized
-    :---------|:---------:|----------
-       0.0    | -1.336306 |   0.0
-       1.0    | -0.801784 |   0.2
-       2.0    | -0.267261 |   0.4
-       3.0    | 0.267261  |   0.6
-       4.0    | 0.801784  |   0.8
-       5.0    | 1.336306  |   1.0
+    input      | standardized | normalized
+    :---------:|:------------:|:----------:
+       0.0     | -1.336306    |   0.0
+       1.0     | -0.801784    |   0.2
+       2.0     | -0.267261    |   0.4
+       3.0     | 0.267261     |   0.6
+       4.0     | 0.801784     |   0.8
+       5.0     | 1.336306     |   1.0
 
 
 #### 4.2 Sparse processing
@@ -109,9 +109,9 @@ Standardized and normalized data: dimensionality of different features in the da
 ## 5 Data optimization
 The purpose is to reduce the amount of data, reduce the dimension of data, delete redundant information, improve the accuracy of analysis, and reduce the amount of calculation by selecting important features. In a word, the two main reasons for feature selection are: (1) alleviate the dimension disaster; (2) reduce the difficulty of learning tasks. The methods are as follows:
 
-- Principal component analysis (PCA) : PCA maps the current dimension to the lower dimension by means of spatial mapping so that the variance of each variable in the new space is maximized.
+- **Principal component analysis (PCA):** PCA maps the current dimension to the lower dimension by means of spatial mapping so that the variance of each variable in the new space is maximized.
 
-- Singular value decomposition (SVD) : SVD has a low interpretability of dimensionality reduction, and its computation is larger than PCA. SVD is generally used for dimensionality reduction on sparse matrices, such as image compression and recommendation system.
+- **Singular value decomposition (SVD):** SVD has a low interpretability of dimensionality reduction, and its computation is larger than PCA. SVD is generally used for dimensionality reduction on sparse matrices, such as image compression and recommendation system.
 
-- Clustering: Clustering a class of similar features into a single variable, thus greatly reducing the dimensions.
+- **Clustering:** Clustering a class of similar features into a single variable, thus greatly reducing the dimensions.
 
