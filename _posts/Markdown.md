@@ -33,7 +33,7 @@ tags:
 
 ~~Delete line~~
 
-<font color='red'>Highlighted text</font>
+<span style="color:blue">some *blue* Highlighted text</span>
 
 
 # Link
