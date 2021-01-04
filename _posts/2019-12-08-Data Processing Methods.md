@@ -48,7 +48,7 @@ Outliers are usually defined as abnormal or noisy, which refers to those data ou
 #### Outlier detection method:
 - *Based on simple statistical analysis:* determine whether there are exceptions based on boxplot and each point. For example, "Describe function" in Pandas can quickly find outliers.
 
-- *Based on the principle of 3 $\sigma$:* If the data has a normal distribution and is far from the mean value, the points within the range of $P(|x-u| > 3 \sigma ) <= 0.003$ are generally defined as outliers.
+- Based on the principle of $ 3 \sigma$: If the data has a normal distribution and is far from the mean value, the points within the range of $P(|x-u| > 3 \sigma ) <= 0.003$ are generally defined as outliers.
 
 - *Based on distance:* By defining the proximity measure between objects, the exception object can be judged according to the distance whether it is far away from other objects. The disadvantage is that the computational complexity is high and it is not suitable for large data sets and data sets with different density regions.
 
