@@ -10,23 +10,6 @@ tags:
     - Ubuntu, Linux
 ---
 
-colorize <- function(x, color) {
-  if (knitr::is_latex_output()) {
-    sprintf("\\textcolor{%s}{%s}", color, x)
-  } else if (knitr::is_html_output()) {
-    sprintf("<span style='color: %s;'>%s</span>", color, 
-      x)
-  } else x
-}
-
-`r colorize("some words in red", "red")`
-
-<span style="color:blue">some *blue* text</span>.
-
-<span style="color:blue">some *This is Blue italic.* text</span>
-
-
-
 ## 1. Update the system using the apt command or apt-get command:
     $ sudo apt update
     $ sudo apt upgrade
