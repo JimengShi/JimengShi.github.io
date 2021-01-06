@@ -45,8 +45,21 @@ Now you can login from your desktop computer powered by Linux, *BSD, macOS, MS-W
     $ ping server-ip
     $ ssh user_name@server-ip
 
+**PS: Installing OpenSSH from the Settings UI on Windows 10**
 
-## 6. Reference
+OpenSSH client and server are installable features of Windows 10.
+
+To install OpenSSH, start Settings then go to Apps > Apps and Features > Manage Optional Features.
+
+Scan this list to see if OpenSSH client is already installed. If not, then at the top of the page select "Add a feature", then:
+
+- To install the OpenSSH client, locate "OpenSSH Client", then click "Install".
+- To install the OpenSSH server, locate "OpenSSH Server", then click "Install".
+
+
+## Reference
 [1] https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/
 
 [2] https://www.bilibili.com/video/BV1y7411d76V?p=12
+
+[3] https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#:~:text=To%20install%20OpenSSH%2C%20start%20Settings,%2C%20then%20click%20%22Install%22.
