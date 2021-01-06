@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      Ubuntu Remote Connection
+subtitle:   How to use your local terminal to control Ubuntu?
+date:       2021-01-06
+author:     Jimeng
+header-img: img/southeast_view.jpg
+catalog: true
+tags:
+    - Ubuntu, Linux
+---
+
 ## 1. Update the system using the apt command or apt-get command:
     $ sudo apt update
     $ sudo apt upgrade
