@@ -31,7 +31,7 @@ Check to confirm that OpenSSH server running on Ubuntu. If not running enable th
 
 
 ## 4. Configure firewall and open port 22
-You must configure the Ubuntu Linux firewall called ufw. Here is how open or allow port 22 when using ufw on Ubuntu:
+You must configure the Ubuntu Linux firewall called ufw. Here is how open or allow port 22 when using ufw on Ubuntu: [1]
 
     $ sudo ufw allow ssh
     $ sudo ufw enable
@@ -39,13 +39,13 @@ You must configure the Ubuntu Linux firewall called ufw. Here is how open or all
 
 
 ## 5. Test it
-Now you can login from your desktop computer powered by Linux, *BSD, macOS, MS-Windows (putty client) or Unix-like system using the ssh command:
+Now you can login from your desktop computer powered by Linux, *BSD, macOS, MS-Windows (putty client) or Unix-like system using the ssh command: `[2]`
     
     $ ifconfigure                 # check your ip address in Ubuntu
     $ ping server-ip
     $ ssh user_name@server-ip
 
-**PS: Installing OpenSSH from the Settings UI on Windows 10**
+**PS: Installing OpenSSH from the Settings UI on Windows 10** `[3]`
 
 OpenSSH client and server are installable features of Windows 10.
 
