@@ -56,6 +56,8 @@ Scan this list to see if OpenSSH client is already installed. If not, then at th
 - To install the OpenSSH client, locate "OpenSSH Client", then click "Install".
 - To install the OpenSSH server, locate "OpenSSH Server", then click "Install".
 
+[![sKzHxO.png](https://s3.ax1x.com/2021/01/09/sKzHxO.png)](https://imgchr.com/i/sKzHxO)
+
 
 ## Reference
 [1] https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/
