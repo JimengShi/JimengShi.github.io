@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Ubuntu Common Commands
-subtitle:   Share some common commands of Ubuntu
+subtitle:   Share some common commands and shortcuts of Ubuntu
 date:       2021-03-01
 author:     Jimeng
 header-img: img/southeast_view.jpg
@@ -59,12 +59,14 @@ installed on your system and then copy the package name you want to remove:
 
 ### 2.5 Sudo apt-get purge
     $ sudo apt-get purge
+    
 It is used to remove a software completely from your system with its configuration or data files 
 so that no longer personalized settings will be available during reinstallation.
 
 
 ### 2.6 Sudo apt-get autoremove
     $ sudo apt-get autoremove
+    
 It is used to remove any unnecessary packages. Unnecessary means, whenever you install an application, 
 the system will also install the software that this application depends on.
 It is common in Ubuntu that applications share the same libraries. 
@@ -182,18 +184,21 @@ Some common uses are:
 
 ## 5. Pwd
     $ Pwd 
+    
 Print working directory displays the full pathname of the current working directory.
 
 
 ## 6. Cp
     $ cp
 cp (copy) Linux command allows you to copy a file. 
+
 You should specify both the file you want to be copied and the location you want it copied to 
 For example, cp xyz /home/myfiles would copy the file “xyz” to the directory “/home/myfiles”.
 
 
 ## 7. Mv
     $ mv (move) command allows you to move files. 
+    
 You can also rename files by moving them to the directory they are currently in, 
 but under a new name. The usage is the same as cp. 
 For example mv xyz /home/myfiles would move the file “xyz” to the directory “/home/myfiles”.
@@ -201,24 +206,103 @@ For example mv xyz /home/myfiles would move the file “xyz” to the directory 
 
 ## 8. Rm
     $ rm (remove) command removes the specified file.
+    
 rmdir (“remove directory”) – Removes an empty directory.
 rm -r (“remove recursively”) – Removes a directory along with its content.
 
 
-## 9. Mkdir
+## 9. Touch 
+    $ touch file1.txt
+    
+If the file file1.txt doesn’t exist the command above will create it, otherwise,
+it will change its timestamps.
+
+    $ touch file1.txt file2.txt file3.txt
+    
+Create multiple files at once, specify the file names separated by space.
+
+
+## 10. Cat
+Cat(concatenate) command reads data from the file and gives their content as output. 
+It helps us to create, view, concatenate files.
+
+    $ cat filename
+    
+View a single file.
+
+
+    $ cat file1 file2
+
+View multiple files.
+
+
+    $ cat -n filename
+
+View contents of a file preceding with line numbers.
+
+
+    $ cat > newfile
+
+Create and a file named newfile.
+
+
+    $ cat [filename-whose-contents-is-to-be-copied] > [destination-filename]
+
+The content will be copied in destination file.
+
+
+    $ cat file1 >> file2
+   
+Append the contents of one file to the end of another file.
+
+
+## 11. Mkdir
     $ mkdir (make directory) Allows you to create a new directory. 
+    
 You can specify where you want the directory created – if you do not do so, 
 it will be created in your current working directory.
 
 
-## 10. History
+## 12. History
+    $ history
+    
 history command displays all of your previous commands up to the history limit.
 
 
+## 13. Df
+    $ df: display filesystem
+    
+It displays information about the disk space usage of all mounted filesystems.
+
+## 14. Passwd
+    $ passwd
+    $ passwd <user>
+    
+It is used to change user password using Terminal. 
+What you have to do is run the above command, where is the username whose password has to change.
+
+
+## 15. Shortcuts
+- Ctrl + Shift + T: Open new tab on current terminal
+- Ctrl + Shift + W: Close the current tab
+- Ctrl + A: Move cursor to beginning of line
+- Ctrl + E: Move cursor to end of line
+- Ctrl + U: Clears the entire current line
+- Ctrl + K: Clears the command from the cursor right
+- Ctrl + W: Delete the word before the cursor
+- Ctrl + R: Allows you to search your history for commands matching what you have typed
+- Ctrl + C: Kill the current process
+- Ctrl + Z: Suspend the current process by sending the signal SIGSTOP
+- Ctrl + L: Clears the terminal output
+- Alt + F: Move forward one word
+- Alt + B: Move backward one word
+- Ctrl + Shift + C:	Copy the highlighted command to the clipboard
+- Ctrl + Shift + V or Shift + Insert: Paste the contents of the clipboard
+- Up/Down Arrow keys: To scroll through your command history, allowing you to quickly execute the same command multiple times
 
 
 ## Reference
-[1] https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/#:~:text=The%20ls%20command%20is%20used,them%20via%20the%20command%20line.
+[1] https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/#:~:text=The%20ls%20command%20is%20used,them%20via%20the%20command%20line
 
 [2] https://www.tecmint.com/15-basic-ls-command-examples-in-linux/
 
