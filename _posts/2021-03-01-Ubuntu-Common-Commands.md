@@ -23,6 +23,7 @@ Here is the list of different apt-get commands:
 
 ### 2.1 Sudo apt-get update    
     $ sudo apt-get update
+    
 Apt-get update with super user privileges is the first command you need to run 
 in any Linux system after a fresh install. 
 This command updates the database and let your system know if there are newer packages available or not.
@@ -31,6 +32,7 @@ This command updates the database and let your system know if there are newer pa
 ### 2.2 Sudo apt-get upgrade 
     $ sudo apt-get upgrade
     $ sudo apt-get upgrade <package-name>
+    
 After updating the package database, next step is to to upgrade the installed packages. 
 And if you like to upgrade a particular package, you should tweak the above command, 
 and replace the <package-name> with your desired package.
@@ -39,6 +41,7 @@ and replace the <package-name> with your desired package.
 ### 2.3 Sudo apt-get upgrade 
     $ sudo apt-get install
     $ sudo apt-get install <package-name>
+    
 Install some packages.
 
 
