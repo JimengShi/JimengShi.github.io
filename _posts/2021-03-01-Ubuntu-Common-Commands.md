@@ -192,4 +192,6 @@ history command displays all of your previous commands up to the history limit.
 ## Reference
 [1] https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/#:~:text=The%20ls%20command%20is%20used,them%20via%20the%20command%20line.
 
-[2] https://www.bilibili.com/video/BV1y7411d76V?p=12
+[2] https://www.tecmint.com/15-basic-ls-command-examples-in-linux/
+
+[3] https://techlog360.com/basic-ubuntu-commands-terminal-shortcuts-linux-beginner/
