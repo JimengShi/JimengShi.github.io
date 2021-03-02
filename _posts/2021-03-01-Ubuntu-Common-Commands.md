@@ -80,31 +80,49 @@ You can also specify paths to other directories if you want to view their conten
     
 List the contents of the current working directory
 
+
     $ ls [directory path here]
+    
 List the contents of another directory:
     
+    
     $ ls /
+    
 List the contents of the root directory
 
+
     $ ls .. 
+    
 List the contents of the parent directory one level above.
 
+
     $ ls ../.. 
+    
 List the contents of the parent directory two levels above.
 
+
     $ ls ~
+    
 List the contents in the users's home directory
 
+
     $ ls -d */
+    
 List only directories
 
+
     $ ls *
+    
 List the contents of the directory with it's subdirectories.
 
+
     $ ls -s (the s is lowercase)
+    
 List files or directories with their sizes
 
+
     $ ls -l (list files in long format)
+    
     
 List the contents of the directory in a table format with columns including:
 - content permissions
@@ -121,22 +139,32 @@ List the contents of the directory in a table format with columns including:
 List the files or directories in the same table format above, 
 but with another column representing the size of each file/directory
 
+
     $ ls -a 
+    
 List files or directories including hidden files or directories. 
 In Linux, anything that begins with a is considered a hidden file.
 
+
     $ ls -l -a or ls -a -l or ls -la or ls -al
+    
 List files or directories in a table format with extra information including hidden files or directories
 
+
     $ ls -t
+    
 List files or directories and sort by last modified date and time in descending order (biggest to smallest).
 You can also add a -r flag to reverse the sorting order like so: ls -tr
 
+
     $ ls -S (the S is uppercase) 
+    
 List files or directories and sort by date or time in descending order (biggest to smallest).
 You can also add a -r flag to reverse the sorting order like so: ls -Sr
 
+
     $ ls > output.txt
+    
 Print the output of the preceding command into an output.txt file. 
 The key point here is that the result will be outputted into a file and not logged to the command line.
 Then you can use the file, or log the contents of the file with cat output.txt
