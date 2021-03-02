@@ -12,6 +12,7 @@ tags:
 
 ## 1. Sudo
     $ sudo: SuperUser DO
+    
 Sudo allows you to run programs or other commands with administrative privileges, 
 just like “Run as administrator” in Windows.
 
