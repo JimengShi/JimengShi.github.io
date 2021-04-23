@@ -13,11 +13,11 @@ tags:
 
 ## Memory & Storage
 
-There are a lot of memories in the computer. They can be divided into 2 big categories: internal memeory
-and external memory.
+There are a lot of memories in the computer. They can be divided into 2 big categories: internal memeory and external memory. 
+**The big difference between them is to see if the CPU exchanges data directly.**
 
 
-### Internal memory
+### Internal memory (Directly)
 
 
 - Register: Embedded into CPU, used to save the temporary data.
@@ -26,7 +26,7 @@ and external memory.
 - ROM (Read-Only memory): main memory. used to record the basic I/O information. Inside data will NOT be deleted after cutting off the electricity.
     
     
-### External memory
+### External memory (Indirectly)
     
 - HDD (Hard Disk Drive)
 - SDD (Solid State Disk)
