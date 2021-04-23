@@ -32,7 +32,9 @@ There are a lot of memories in the computer. They can be divided into 2 big cate
 - SDD (Solid State Disk)
 - Cloud Storage
 
-    
+
+[![cOvhF0.jpg](https://z3.ax1x.com/2021/04/23/cOvhF0.jpg)](https://imgtu.com/i/cOvhF0)
+
 
 [![cOjC9O.png](https://z3.ax1x.com/2021/04/23/cOjC9O.png)](https://imgtu.com/i/cOjC9O)
 
