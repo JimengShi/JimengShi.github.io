@@ -4,7 +4,7 @@ title:      Ubuntu Remote Connection
 subtitle:   How to use your local terminal to control Ubuntu?
 date:       2021-01-06
 author:     Jimeng
-header-img: img/southeast_view.jpg
+header-img: img/southeast_view.jpg2021-03-01-Ubuntu-Common-Commands.md
 catalog: true
 tags:
     - Ubuntu, Linux
