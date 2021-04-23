@@ -2,7 +2,7 @@
 layout:     post
 title:      Memory & Storage of Computer
 subtitle:   Categories of different computer memories
-date:       2021-04-22
+date:       2021-04-23
 author:     Jimeng
 header-img: img/southeast_view.jpg
 catalog: true
