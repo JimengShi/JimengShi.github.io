@@ -19,3 +19,4 @@ tags:
 - http://nlp.seas.harvard.edu/2018/04/03/attention.html
 - http://vandergoten.ai/2018-09-18-attention-is-all-you-need/
 - http://jalammar.github.io/illustrated-transformer/
+- https://www.huaweicloud.com/articles/5152a8ea63d631a1890dc578c99328bc.html
