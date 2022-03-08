@@ -89,12 +89,12 @@ service-worker: true
 
 
 # Connect
-friends: [
-    {
-        title: "Personal Website",
-        href: "http://jimengai.ueuo.com/index.html"
-    },{
-        title: "Linkedin",
-        href: "https://www.linkedin.com/in/jimeng-shi-729564187/"
-    }
-]
+# friends: [
+#     {
+#         title: "Personal Website",
+#         href: "http://jimengai.ueuo.com/index.html"
+#     },{
+#         title: "Linkedin",
+#         href: "https://www.linkedin.com/in/jimeng-shi-729564187/"
+#     }
+# ]
