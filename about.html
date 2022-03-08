@@ -18,7 +18,7 @@ header-img: "img/post-bg-rwd.jpg"
     <blockquote><p>Lifelong Learning! Learn --> Summary --> Share.</p></blockquote>
 
     
-    <h5><a style="color: green">Introduction</a></h5>
+    <h5>Introduction</h5>
     <p>Hi, there! My name is <strong>Jimeng Shi</strong>, a CS Ph.D. student under the supervision of <a href="https://users.cs.fiu.edu/~giri/" style="color: green;">Prof. Giri Narasimhan</a> at at Florida International University. My reasearch area is majorly the application of Machine Learning, Deep Learning, and Reinforcement Learning. Minor research field is to improve the efficiency of model algorithms. You can check out what I did about AI on <a href="https://github.com/JimengShi">GitHub</a>. </p>
     <p></p>
     
@@ -33,99 +33,10 @@ header-img: "img/post-bg-rwd.jpg"
     
     <h5>Publications</h5>
     <ul>
-        [1] <strong>Jimeng Shi</strong>, Cheng-Xian Lin. <i>Computational Simulation and Analysis of Major Parameters for Thermal and Electrical Efficiency of Time-Dependent PV/T Collectors</i>. ASME Journal of Solar Energy Engineering. 2021. <a href="https://www.researchgate.net/publication/350287990_COMPUTATIONAL_SIMULATION_AND_ANALYSIS_OF_MAJOR_CONTROL_PARAMETERS_OF_TIME-DEPENDENT_PVT_COLLECTORS" style="color: green">(PDF)</a><a href="https://doi.org/10.1115/1.4050609">(Website)</a><br/><br/>
+        [1] <strong>Jimeng Shi</strong>, Cheng-Xian Lin. <i>Computational Simulation and Analysis of Major Parameters for Thermal and Electrical Efficiency of Time-Dependent PV/T Collectors</i>. ASME Journal of Solar Energy Engineering. 2021. <a href="https://www.researchgate.net/publication/350287990_COMPUTATIONAL_SIMULATION_AND_ANALYSIS_OF_MAJOR_CONTROL_PARAMETERS_OF_TIME-DEPENDENT_PVT_COLLECTORS" style="color: green">(PDF)</a><a href="https://doi.org/10.1115/1.4050609" style="color: green;">(Website)</a><br/><br/>
 
-        [2] <strong>Jimeng Shi</strong>, Cheng-Xian Lin. <i>Computational Simulation and Analysis of Major Control Parameters of Time-Dependent PV/T Collectors</i>. ASME 2019 International Mechanical Engineering Congress and Exposition. <a href="https://www.researchgate.net/publication/338723118_Computational_Simulation_and_Analysis_of_Major_Control_Parameters_of_Time-Dependent_PVT_Collectors" style="color: green">(PDF)</a><a href="https://doi.org/10.1115/IMECE2019-12184">(Website)</a><br/>
+        [2] <strong>Jimeng Shi</strong>, Cheng-Xian Lin. <i>Computational Simulation and Analysis of Major Control Parameters of Time-Dependent PV/T Collectors</i>. ASME 2019 International Mechanical Engineering Congress and Exposition. <a href="https://www.researchgate.net/publication/338723118_Computational_Simulation_and_Analysis_of_Major_Control_Parameters_of_Time-Dependent_PVT_Collectors" style="color: green">(PDF)</a><a href="https://doi.org/10.1115/IMECE2019-12184" style="color: green;">(Website)</a><br/>
     </ul>
 
 </div>
-
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
-
-
-<!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
-<!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-    <script type="text/javascript">
-    var gitalk = new Gitalk({
-    clientID: '{{site.gitalk.clientID}}',
-    clientSecret: '{{site.gitalk.clientSecret}}',
-    repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: 'about',
-    });
-    gitalk.render('gitalk-container');
-</script>
-{% endif %}
-<!-- Gitalk end -->
-
- <!-- disqus 评论框 start  -->
-{% if site.disqus.enable %}
-
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus.username}}";
-    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
 
