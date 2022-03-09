@@ -11,7 +11,7 @@ github_repo: "https://github.com/JimengShi/JimengShi.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Big fan of Artificial Intelligence"
+# sidebar-about-description: "Big fan of Artificial Intelligence"
 sidebar-avatar: /img/myself - Copy.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
