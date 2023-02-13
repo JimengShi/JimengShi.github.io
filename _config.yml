@@ -18,7 +18,7 @@ sidebar-avatar: /img/myself - Copy.jpg      # use absolute URL, seeing it's used
 
 # SNS settings
 RSS: false
-googlescholar_username: citations?user=TLu9SFQAAAAJ&hl=en
+googlescholar_username: /citations?hl=en&user=rnNnv8cAAAAJ
 github_username:    jimengshi
 # facebook_username:  jimeng.shi.54
 linkedin_username:  jimengshi
