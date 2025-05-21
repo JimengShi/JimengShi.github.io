@@ -6,7 +6,7 @@ email: jimengshi008@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Machine Learning, Deep Learning"
 url: "http://JimengShi.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/index"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/JimengShi/JimengShi.github.io.git" # you code repository
 
 # Sidebar settings
@@ -78,9 +78,9 @@ ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
 ga_domain: auto.top                     # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
-# Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+# # Featured Tags
+# featured-tags: true                     # 是否使用首页标签
+# featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
 # Progressive Web Apps
