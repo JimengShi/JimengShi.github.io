@@ -2,7 +2,7 @@
 title: Jimeng Shi
 SEOTitle: About Me | Jimeng Shi
 header-img: img/tag-bg.jpg
-email: jimengshi008@gmail.com
+email: jimeng8@illinois.edu
 description: "Every failure is leading towards success."
 keyword: "Machine Learning, Deep Learning"
 url: "http://JimengShi.github.io"          # your host, for absolute URL
@@ -12,7 +12,7 @@ github_repo: "https://github.com/JimengShi/JimengShi.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 # sidebar-about-description: "Big fan of Artificial Intelligence"
-sidebar-avatar: /img/myself - Copy.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/jimeng_real_smile.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
