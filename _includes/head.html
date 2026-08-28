@@ -36,6 +36,17 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Academicons: real icons for Google Scholar and other academic services -->
     <link href="//cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" rel="stylesheet" type="text/css">
+    <style>
+        /* Academicons sets line-height:1 / display:inline-block, which breaks
+           Font Awesome's fa-stack centering. Restore it so the icon sits in
+           the middle of the circle. */
+        .fa-stack .ai {
+            display: inline;
+            line-height: inherit;
+            vertical-align: baseline;
+            font-size: 0.9em;
+        }
+    </style>
 
 
     <!-- Hux Delete, sad but pending in China
