@@ -2,28 +2,35 @@
 layout: default
 ---
 
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <!--<hr class="small">-->
-                    <span class="subheading">{{ page.description }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
 <!-- Main Content -->
 <style>
     @media (min-width: 992px) {
         .postlist-container { left: 20%; }
     }
+
+    /* keep the top nav pinned in place, with a light background + dark text,
+       instead of the default transparent-over-photo / scroll-to-reveal behavior */
+    .navbar-custom {
+        position: fixed !important;
+        top: 0 !important;
+        transform: none !important;
+        background-color: #ffffff !important;
+        border-bottom: 1px solid #eee !important;
+    }
+    .navbar-custom .navbar-brand,
+    .navbar-custom .nav li a {
+        color: #333333 !important;
+    }
+    .navbar-custom .navbar-brand:hover,
+    .navbar-custom .navbar-brand:focus,
+    .navbar-custom .nav li a:hover,
+    .navbar-custom .nav li a:focus {
+        color: #004d99 !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar { background-color: #333333 !important; }
+    .page-main-container { padding-top: 81px; }
 </style>
-<div class="container">
+<div class="container page-main-container">
 	<div class="row">
         {% if site.sidebar == false %}
 <!-- NO SIDEBAR -->
@@ -104,8 +111,7 @@ layout: default
                 {% endif %}
 
                 <!-- Short About -->
-                <section class="visible-md visible-lg">
-                    <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
+                <section class="visible-md visible-lg" style="margin-top: 16px;">
                     <div class="short-about">
                         {% if site.sidebar-avatar %}
                             <a href="{{ site.baseurl }}/about">
